@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "clarity",
+  "version": "${version}",
+  "name": "Clarity",
+  "description": "Client-side cosmetic item models: swap any item's look for your own Blockbench .bbmodel with idle / right-click / swing animations and per-view placement. Works with Hypixel SkyBlock item IDs and UUIDs. Can also hide chosen armor pieces on your character.",
+  "authors": [
+    "lokniksquarez"
+  ],
+  "license": "MIT",
+  "icon": "assets/clarity/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.itemvisuals.ItemVisualsClient"
+    ]
+  },
+  "mixins": [
+    "clarity.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.itemvisuals.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ItemModelResolverMixin",
+    "HumanoidRenderStateMixin",
+    "HumanoidMobRendererMixin",
+    "HumanoidArmorLayerMixin",
+    "CustomHeadLayerMixin",
+    "LivingEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
